@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    box-sizing: border-box;
+    border: none;
+    overflow-x: hidden;
+    }
+
+section{
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.cajaprincipal {
+    display: block;
+    padding: 0; 
+    border: 0;
+    margin: 0 none;
+}
+  .barra1 {
+    float: top;
+    top: 100%;
+    width: 100%;
+    height: 200px;
+    background: #93B5C9; 
+  }
+  
+  .barra2 {
+    background-color: #AB2849; 
+    padding: 10%;
+    width: 100%;
+    height: 100%; 
+    
+  }
+  
+  .barra3 {
+    background-color: #AB2849;
+    float: 0%;
+    width: 85%;
+    margin-top: 2%;
+    margin-left: 0%;
+    height: 100px;
+    left: 15%;
+  }
+
+  .barra4 {
+    background-color: #AB2849;
+    float: 0%;
+    width: 85%;
+    margin-top: 2%;
+    margin-left: 0%;
+    height: 100px;
+    left: 15%;
+  }
+
+  .barra5 {
+    background-color: #AB2849;
+    float: 0%;
+    width: 85%;
+    margin-top: 2%;
+    margin-left: 0%;
+    height: 100px;
+    left: 15%;
+  }
+
+  .barra6 {
+    background-color: #AB2849;
+    float: 0%;
+    width: 85%;
+    margin-top: 2%;
+    margin-left: 0%;
+    height: 100px;
+    left: 15%;
+  }
+
+  .barra7 {
+    background-color: #AB2849;
+    padding: 40px;
+    width: 90%;
+    float: left;
+    margin: 1%;
+    margin-left: 2%;
+  }
