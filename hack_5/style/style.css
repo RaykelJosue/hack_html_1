@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo .circle {
+    width: 20px;
+    height: 20px;
+    background-color: #4caf50;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.header-text {
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    margin-top: -450px;
+}
+
+.hero-text {
+    position: absolute;
+    font-size: 1.5em;
+    top: 25%;
+    left: 33%;
+    transform: translate(-50%, -30%);
+    padding: 20px 20px;
+}
+
+.hero-text h1 {
+    background-color: #4caf50;
+    text-align: justify;
+    display: absolute;
+    line-height: 1.7;
+    margin-top: 40px; 
+    margin-bottom: -30px; /* Espacio entre las barras verdes */
+    text-indent: 100px; /* Identación para dejar sangria */
+    padding-right: 90px; 
+}
+
+.hero-text h3 {
+    font-size: 1.3em;
+    background-color: black;
+    line-height: 1.3;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 70px; /* Menos espacio entre los párrafos */
+    text-indent: 45px; /* Identación para dejar sangria */
+    padding-right: 220px; 
+}
+
+.hero-text h4 {
+    
+    font-size: 1.3em;
+    background-color: black;
+    line-height: 1.3;
+    display: inline-block;
+    text-align: justify;
+    padding: 10px;
+    margin-top: -30px; /* Menos espacio entre los párrafos */
+    text-indent: 50px; /* Identación para dejar sangria */
+    margin-bottom: -10%;
+    padding-right: 525px; 
+}
+
+
+.content {
+    padding: 80px 20px;
+    margin-top: -42%;
+}
+
+.content h2, span {
+    font-size: 1.9em;
+    margin-bottom: 20px;
+    text-align: left;
+    margin-left: 75px;
+}
+
+
+.services {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+}
+
+.service {
+    margin-top: 40px;
+    font-weight: bold;
+    flex: 1;
+    max-width: 300px;
+}
+
+.service img {
+    width: 100%;
+    height: auto;
+}
+
+.service h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer {
+    font-size: 2em;
+    background-color: #4caf50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.footer p a {
+    margin: 0;
+}
