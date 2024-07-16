@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header {
+    position: relative;
+    color: white;
+    text-align: left;
+    padding: 20px 20px;
+}
+
+.header .content {
+    position: relative;
+    z-index: 2;
+    height: 100vh;
+}
+
+.header .logo {
+    background: black;
+    color: white;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 50px;
+    position: relative; 
+    top: 50px; 
+    left: 15%; 
+    transform: translateX(0%); 
+    margin-bottom: 50px; 
+}
+
+
+
+.header h1 {
+    font-size: 2.5rem;
+    margin: 40px 100px;
+    margin-left: 15%;
+    color: #000000;
+    font-weight: bold;
+}
+
+
+
+.header p {
+    font-size: 1.4rem;
+    color: #000000;
+    margin: 70px 0;
+    margin-left: 15%;
+    margin-bottom: 50%;
+    font-weight: bold;
+}
+
+.header .discount-badge {
+    background-color: #2ecc71;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    font-size: 2.5rem;
+    padding: 100px 45px;
+    border-radius: 80%;
+    top: 200px;
+    right: 200px;
+}
+
+.lista-productos {
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.product-item {
+    width: 30%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.product-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-item p {
+    margin: 10px 0;
+}
+
+.price {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: red;
+    margin-right: 10px;
+}
+
+.footer {
+    padding: 30px 80px;
+    background-color: #000000;
+    color: white;
+    text-align: center;
+}
+
+.button-container {
+    display: flex;
+    justify-content: left;
+}
+
+.footer button {
+    background-color: #27ae60;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.footer button:hover {
+    background-color: #2ecc71;
+}
